@@ -1,10 +1,11 @@
-This exercise is tricky and was removed from our recommendations because it mostly leverages regular expressions for the solution, and those aren't really taught at this point in our curriculum.
+Este ejercicio es complicado y se retiró de nuestras recomendaciones porque su solución depende principalmente de expresiones regulares, que todavía no se enseñan en esta etapa del programa.
 
-Leaving it here for posterity, or a good challenge for anyone that wants to give it a shot.
+Lo conservamos como referencia histórica o como un buen reto para quien quiera intentarlo.
 
-Pig Latin is a children's language that is intended to be confusing when spoken quickly. Your job for this exercise is to create a solution that takes the words given and
-turns them into pig latin. Please see the following wikipedia page for details regarding the rules of Pig Latin:
+*Pig Latin* es un juego lingüístico infantil en inglés diseñado para resultar confuso cuando se habla rápidamente. Tu tarea consiste en crear una solución que transforme las palabras proporcionadas a *Pig Latin*.
+
+Consulta la siguiente página de Wikipedia para conocer las reglas:
 
 https://en.wikipedia.org/wiki/Pig_Latin
 
-The rules section will give the rules and the examples that are required to complete this exercise.
+La sección de reglas contiene las indicaciones y ejemplos necesarios para completar el ejercicio.

@@ -1,10 +1,10 @@
-# Exercise 02 - Palindromes
+# Ejercicio 02 - Palíndromos
 
-Write a function that determines whether or not a given string is a palindrome.
+Escribe una función que determine si una cadena de texto es un palíndromo.
 
-A palindrome is a string that is spelled the same both forwards and backwards, usually without considering punctuation or word breaks:
+Un palíndromo es una cadena que se lee igual de izquierda a derecha que de derecha a izquierda, normalmente sin tener en cuenta la puntuación ni los espacios entre palabras.
 
-Some palindromes:
+Algunos ejemplos de palíndromos en inglés:
 
 - A car, a man, a maraca.
 - Rats live on no evil star.

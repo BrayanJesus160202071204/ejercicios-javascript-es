@@ -1,18 +1,19 @@
-# Exercise 5 - pascal
+# Ejercicio 5 - pascal
 
-The pascal's triangle is modelled as follows:
-- The first row is `1`.
-- Each row can be considered to have a hidden `0` to either sides of it. So the first row could also be said to be `0, 1, 0`
-- To obtain the next row, we take each number and add it with its rightmost neighbor.
+El triángulo de Pascal se construye de la siguiente manera:
 
-First row: `[1]`
-Second row: `[0+1, 1+0]` or simply `[1, 1]`
-Third row: `[0+1, 1+1, 1+0]` or simply `[1, 2, 1]`
-Fourth row: `[0+1, 1+2, 2+1, 1+0]` or simply `[1, 3, 3, 1]`
+- La primera fila es `1`.
+- Podemos imaginar que cada fila tiene un `0` oculto a cada lado. Por ejemplo, la primera fila también puede representarse como `0, 1, 0`.
+- Para obtener la fila siguiente, sumamos cada número con su vecino de la derecha.
+
+Primera fila: `[1]`  
+Segunda fila: `[0+1, 1+0]`, es decir, `[1, 1]`  
+Tercera fila: `[0+1, 1+1, 1+0]`, es decir, `[1, 2, 1]`  
+Cuarta fila: `[0+1, 1+2, 2+1, 1+0]`, es decir, `[1, 3, 3, 1]`  
 ...
 
-The pattern continues forever.
+Este patrón continúa indefinidamente.
 
-Your task is to create a *recursive* function, `pascal` - that will take an input `n` and output the `n`th pascal's row as an array of numbers.
+Tu tarea es crear una función **recursiva** llamada `pascal` que reciba `n` y devuelva la fila número `n` del triángulo de Pascal como un arreglo de números.
 
-For example, `pascal(3)` should return `[1, 2, 1]`.
+Por ejemplo, `pascal(3)` debe devolver `[1, 2, 1]`.

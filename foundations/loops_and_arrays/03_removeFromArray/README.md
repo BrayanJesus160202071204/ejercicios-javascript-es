@@ -1,18 +1,18 @@
-# Exercise 03 - removeFromArray
+# Ejercicio 03 - removeFromArray
 
-Implement a function that takes an array and some other arguments then removes the other arguments from that array, and returns the resulting array:
+Implementa una función que reciba un arreglo y algunos argumentos adicionales, elimine del arreglo los elementos indicados por esos argumentos y devuelva el arreglo resultante:
 
 ```javascript
-removeFromArray([1, 2, 3, 4], 3); // should remove 3 and return [1,2,4]
+removeFromArray([1, 2, 3, 4], 3); // debe eliminar 3 y devolver [1,2,4]
 ```
 
-See if you can make use of some built-in array methods in this exercise.
+Intenta utilizar algunos de los métodos integrados de los arreglos para resolver el ejercicio.
 
-## Hints
+## Pistas
 
-The first test on this one is fairly easy, but there are a few things to think about (or google) here for the later tests:
+La primera prueba es bastante sencilla, pero las siguientes requieren pensar (o investigar) algunas cosas:
 
-- You can manipulate the original array you pass into the function call or create a new array that is returned as the result, but the function should return the resulting array regardless of the approach.
-- How to remove a single element from an array
-- How to deal with multiple optional arguments in a JavaScript function
-- For more information, check out MDN's page on [function arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments) - scroll down to the bit about `Array.from` or the spread operator. You can also check out MDN's page on [rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters).
+- Puedes modificar el arreglo original que pasas a la función o crear uno nuevo. En cualquier caso, la función debe devolver el arreglo resultante.
+- Cómo eliminar un único elemento de un arreglo.
+- Cómo trabajar con varios argumentos opcionales en una función de JavaScript.
+- Para obtener más información, consulta la página de MDN sobre [argumentos de funciones](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments), especialmente `Array.from` y el operador de propagación. También puedes revisar los [parámetros rest](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters).

@@ -1,12 +1,12 @@
-# Exercise 03 - Fibonacci
+# Ejercicio 03 - Fibonacci
 
-Create a function that returns a specific member of the Fibonacci sequence (series of numbers in which each number is the sum of the two preceding numbers). To learn more about Fibonacci sequences, go to: <https://en.wikipedia.org/wiki/Fibonacci_sequence>
+Crea una función que devuelva un elemento específico de la sucesión de Fibonacci (una serie en la que cada número es la suma de los dos anteriores). Para obtener más información, consulta <https://en.wikipedia.org/wiki/Fibonacci_sequence>.
 
-In this exercise, the Fibonacci sequence used is 1, 1, 2, 3, 5, 8, etc. (i.e. starting at 1, not 0):
+En este ejercicio se utiliza la sucesión 1, 1, 2, 3, 5, 8, etc. (es decir, comienza en 1 y no en 0):
 
 ```javascript
-fibonacci(4); // returns the 4th member of the series: 3  (1, 1, 2, 3)
-fibonacci(6); // returns 8
+fibonacci(4); // devuelve el cuarto elemento: 3 (1, 1, 2, 3)
+fibonacci(6); // devuelve 8
 ```
 
-If given 0, a negative number, `NaN`, or not a number type at all, the function should return `"OOPS"`, i.e. only proceed with positive numbers.
+Si recibe 0, un número negativo, `NaN` o un valor que no sea de tipo numérico, la función debe devolver `"OOPS"`. Es decir, solo debe continuar con números positivos.

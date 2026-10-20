@@ -1,18 +1,18 @@
-# Exercise 05 - leapYears
+# Ejercicio 05 - leapYears
 
-Create a function that determines whether or not a given year is a leap year. Leap years are determined by the following rules:
+Crea una función que determine si un año es bisiesto. Los años bisiestos se identifican mediante estas reglas:
 
-> Leap years are years divisible by four (like 1984 and 2004). However, years divisible by 100 are not leap years (such as 1800 and 1900) unless they are divisible by 400 (like 1600 and 2000, which were in fact leap years). (Yes, it's all pretty confusing)
+> Los años bisiestos son divisibles entre cuatro (como 1984 y 2004). Sin embargo, los años divisibles entre 100 no son bisiestos (como 1800 y 1900), a menos que también sean divisibles entre 400 (como 1600 y 2000, que sí fueron bisiestos). Sí, puede resultar un poco confuso.
 >
-> -- [Learn to Program](https://pine.fm/LearnToProgram/chap_06.html) by Chris Pine
+> — [Learn to Program](https://pine.fm/LearnToProgram/chap_06.html), de Chris Pine (traducción al español)
 
 ```javascript
-leapYears(2000); // is a leap year: returns true
-leapYears(1985); // is not a leap year: returns false
+leapYears(2000); // es bisiesto: devuelve true
+leapYears(1985); // no es bisiesto: devuelve false
 ```
 
-Still confused? Refer to this [leap year breakdown](https://www.calendar-12.com/leap_year) with examples.
+¿Todavía tienes dudas? Consulta [esta explicación de los años bisiestos](https://www.calendar-12.com/leap_year) con ejemplos.
 
-## Hints
+## Pistas
 
-- use an `if` statement and `&&` to make sure all the conditions are met properly
+- Utiliza una sentencia `if` y el operador `&&` para comprobar correctamente todas las condiciones.

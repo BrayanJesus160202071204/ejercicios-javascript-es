@@ -1,18 +1,18 @@
-# Exercise 01 - repeatString
+# Ejercicio 01 - repeatString
 
-Write a function that simply repeats the string a given number of times:
+Escribe una función que repita una cadena de texto un número determinado de veces:
 
 ```javascript
-repeatString('hey', 3) // returns 'heyheyhey'
+repeatString('hey', 3) // devuelve 'heyheyhey'
 ```
 
-This function will take two arguments, `string` and `num`. If `num` is a negative number, return the string `'ERROR'` instead.
+Esta función recibirá dos argumentos: `string` y `num`. Si `num` es negativo, debe devolver la cadena `'ERROR'`.
 
-Use loops to implement `repeatString` rather than using the builtin `String.prototype.repeat` which has the same behaviour.
+Implementa `repeatString` utilizando bucles, en lugar del método integrado `String.prototype.repeat`, que tiene un comportamiento similar.
 
-*Note:* The exercises after this one will not have arguments provided as this one does - you will need to provide them yourself from now on. So read each exercise's README carefully to see what kinds of arguments will be expected.
+*Nota:* En los ejercicios posteriores no se indicarán los argumentos de manera tan explícita como aquí; tendrás que determinarlos por tu cuenta. Por eso, lee cuidadosamente el README de cada ejercicio para identificar qué argumentos se esperan.
 
-## Hints
+## Pistas
 
-- What inputs does the function need to achieve its goal?
-- How can you iteratively build up the final string, using one of the inputs to control the repetition?
+- ¿Qué datos necesita la función para cumplir su objetivo?
+- ¿Cómo puedes construir la cadena final de forma iterativa, utilizando uno de los argumentos para controlar las repeticiones?

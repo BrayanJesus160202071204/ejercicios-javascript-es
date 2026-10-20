@@ -1,8 +1,8 @@
-# Exercise 3 - totalIntegers
+# Ejercicio 3 - totalIntegers
 
-Write a function that takes in an arbitrarily deep array or object and returns the total number of integers stored inside this array or object.
+Escribe una función que reciba un arreglo o un objeto con cualquier nivel de anidamiento y devuelva la cantidad total de números enteros almacenados en su interior.
 
 ```javascript
-totalIntegers([[[5], 3], 0, 2, ['foo'], [], [4, [5, 6]]]); // returns 7
-totalIntegers({ a: 1, b: { a: [5, 10], b: 11 } }); // returns 4
+totalIntegers([[[5], 3], 0, 2, ['foo'], [], [4, [5, 6]]]); // devuelve 7
+totalIntegers({ a: 1, b: { a: [5, 10], b: 11 } }); // devuelve 4
 ```

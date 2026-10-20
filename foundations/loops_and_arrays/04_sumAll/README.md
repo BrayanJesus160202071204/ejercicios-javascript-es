@@ -1,14 +1,14 @@
-# Exercise 04 - sumAll
+# Ejercicio 04 - sumAll
 
-Implement a function that takes 2 positive integers and returns the sum of every integer between (and including) them:
+Implementa una función que reciba dos enteros positivos y devuelva la suma de todos los enteros comprendidos entre ambos, incluidos los extremos:
 
 ```javascript
-sumAll(1, 4) // returns the sum of 1 + 2 + 3 + 4 which is 10
+sumAll(1, 4) // devuelve la suma de 1 + 2 + 3 + 4, es decir, 10
 ```
 
-If the function receives invalid arguments (such as negative numbers, non-integers, strings etc. - anything other than positive integers), it should return the string `'ERROR'`.
+Si la función recibe argumentos no válidos (por ejemplo, números negativos, valores no enteros o cadenas de texto; en general, cualquier valor que no sea un entero positivo), debe devolver la cadena `'ERROR'`.
 
-## Hints
+## Pistas
 
-- How will you ensure you're summing all integers within the correct range, no matter the order of the inputs?
-- Think about your sum's starting value. Then, how can you make sure every single number from the smaller input to the larger one (including both) gets added to it?
+- ¿Cómo puedes asegurarte de sumar todos los enteros del intervalo correcto, independientemente del orden de los argumentos?
+- Piensa en el valor inicial de la suma. ¿Cómo puedes agregarle todos los números desde el menor hasta el mayor, incluidos ambos?

@@ -1,11 +1,11 @@
-# Exercise 02 - Reverse a String
+# Ejercicio 02 - Invertir una cadena
 
-Pretty simple, write a function called `reverseString` that returns its input, reversed!
+Es bastante sencillo: escribe una función llamada `reverseString` que devuelva la cadena recibida, ¡pero al revés!
 
 ```javascript
-reverseString('hello there') // returns 'ereht olleh'
+reverseString('hello there') // devuelve 'ereht olleh'
 ```
 
-## Hints
+## Pistas
 
-Strings in JavaScript are immutable and, therefore, cannot be reversed directly in place. While there is no built-in method for this, several alternative approaches can be used, drawing on the concepts you've been introduced to in the lessons.
+Las cadenas de texto en JavaScript son inmutables y, por lo tanto, no pueden invertirse directamente en el mismo lugar. Aunque no existe un método integrado específico para hacerlo, puedes utilizar distintos enfoques basados en los conceptos aprendidos en las lecciones.

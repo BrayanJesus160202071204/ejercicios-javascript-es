@@ -1,33 +1,37 @@
-# Exercise 13 - Caesar cipher
+# Ejercicio 13 - Cifrado César
 
-Implement the legendary Caesar cipher:
+Implementa el legendario cifrado César:
 
-> In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
+> En criptografía, el cifrado César, también conocido como cifrado por desplazamiento, es una de las técnicas de cifrado más sencillas y conocidas. Es un cifrado por sustitución en el que cada letra del texto original se reemplaza por otra situada un número fijo de posiciones más adelante o atrás en el alfabeto. Por ejemplo, con un desplazamiento de 3 posiciones hacia la izquierda, D se sustituye por A, E por B, y así sucesivamente. Recibe su nombre de Julio César, quien lo utilizaba en su correspondencia privada.
 
-Hint: You may need to convert letters to their unicode values. Be sure to read the documentation!
+Pista: quizá necesites convertir las letras a sus valores Unicode. ¡Consulta la documentación!
 
-write a function that takes a string to be encoded and a shift factor and then returns the encoded string:
+Escribe una función que reciba una cadena de texto y un factor de desplazamiento, y devuelva la cadena cifrada:
 
 ```javascript
-caesar('A', 1) // simply shifts the letter by 1: returns 'B'
+caesar('A', 1) // desplaza la letra una posición: devuelve 'B'
 ```
 
-the cipher should retain capitalization:
+El cifrado debe respetar las mayúsculas:
+
 ```javascript
-caesar('Hey', 5) // returns 'Mjd'
+caesar('Hey', 5) // devuelve 'Mjd'
 ```
 
-should _not_ shift punctuation:
+**No** debe desplazar los signos de puntuación:
+
 ```javascript
-caesar('Hello, World!', 5) //returns 'Mjqqt, Btwqi!'
+caesar('Hello, World!', 5) // devuelve 'Mjqqt, Btwqi!'
 ```
 
-the shift should wrap around the alphabet:
+El desplazamiento debe volver al principio del alfabeto al llegar al final:
+
 ```javascript
-caesar('Z', 1) // returns 'A'
+caesar('Z', 1) // devuelve 'A'
 ```
 
-negative numbers should work as well:
+También debe funcionar con números negativos:
+
 ```javascript
-caesar('Mjqqt, Btwqi!', -5) // returns 'Hello, World!'
+caesar('Mjqqt, Btwqi!', -5) // devuelve 'Hello, World!'
 ```

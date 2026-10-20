@@ -1,10 +1,10 @@
-# Exercise 2 - contains
+# Ejercicio 2 - contains
 
-Write a function that searches for a value in a nested object. It returns true if the object contains that value.
+Escribe una función que busque un valor dentro de un objeto anidado. Debe devolver `true` si el objeto contiene ese valor.
 
-Objects are compared by reference.
+Los objetos se comparan por referencia.
 
-Examples:
+Ejemplos:
 
 ```javascript
 contains({ foo: "foo" }, "bar") // false

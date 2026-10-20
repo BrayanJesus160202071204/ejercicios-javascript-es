@@ -1,11 +1,11 @@
-# Exercise 05 - Find the Oldest
+# Ejercicio 05 - Encuentra a la persona de mayor edad
 
-Given an array of objects representing people with a birth and death year, return the oldest person.
+Dado un arreglo de objetos que representan personas con sus años de nacimiento y fallecimiento, devuelve la persona de mayor edad.
 
-Now that you've reached the final exercise, you should be fairly comfortable getting the information you need from test case(s). Take a look at how the array of objects is constructed in this exercise's test cases to help you write your function.
+Como has llegado al último ejercicio, ya deberías sentirte bastante cómodo obteniendo la información necesaria de los casos de prueba. Observa cómo se construye el arreglo de objetos en las pruebas de este ejercicio para ayudarte a escribir la función.
 
-## Hints
+## Pistas
 
-- You should return the whole person object, but the tests mostly just check to make sure the name is correct.
-- There are many ways of doing this using built-in array methods like `reduce`, or even chaining multiple! 
-- One of the tests checks for people with no death-date.. use JavaScript's Date function to get their age as of today.
+- Debes devolver el objeto completo de la persona, aunque las pruebas comprueban principalmente que el nombre sea correcto.
+- Hay muchas formas de resolverlo utilizando métodos integrados de arreglos como `reduce`, ¡o incluso encadenando varios métodos!
+- Una de las pruebas incluye personas sin fecha de fallecimiento. Utiliza `Date` de JavaScript para calcular su edad hasta el día de hoy.

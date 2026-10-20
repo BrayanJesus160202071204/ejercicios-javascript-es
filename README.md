@@ -1,35 +1,41 @@
-# JavaScript Exercises
+# Ejercicios de JavaScript en español
 
-These JavaScript exercises are intended to complement the JavaScript content on [The Odin Project](https://www.theodinproject.com/) (TOP). They should only be done when instructed during the course of the curriculum.
+Estos ejercicios de JavaScript complementan los contenidos de [The Odin Project](https://www.theodinproject.com/) (TOP). Se recomienda realizarlos en el momento indicado por el programa de estudios.
 
-> [!IMPORTANT]
-> We encourage you to practice your git skills by committing your changes and pushing them to your own fork.  However, please **DO NOT** open a Pull Request to have your solutions merged into this repo or to show your solution.  If we were to merge your changes the exercises would no longer be available as intended for new learners, and opening a PR only causes additional work for us, as we have to close it without merging.
-
-## Contributing
-
-If you have a suggestion to improve an exercise, an idea for a new exercise, or notice an issue with an exercise, please feel free to open an issue after thoroughly reading our [contributing guide](https://github.com/TheOdinProject/javascript-exercises/blob/main/CONTRIBUTING.md).
-
-## How To Use These Exercises
-
-1. Fork and clone this repository. To learn how to fork a repository, see the GitHub documentation on [how to fork a repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository).
-   - Copies of repositories on your machine are called clones. If you need help cloning to your local environment you can learn how from the GitHub documentation on [cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
-1. **npm installation:** You should have installed npm already in our [Installing Node.js](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/installing-node-js) lesson. Just in case you need to check, type `npm --version` in your terminal. If you get back `Command 'npm' not found, but can be installed with:`, **do not follow the instructions in the terminal** to install with `apt-get` as this causes permission issues. Instead, **go back to the installation lesson** and install Node with NVM by following the instructions there.
-1. **Jest installation:** After cloning this repository to your local machine and installing npm, go **into** the newly created directory (`cd javascript-exercises`) and run `npm install`. This will install Jest and set up the testing platform based on our preconfigured settings. (Note: if you get warnings that packages are out of date or contain vulnerabilities, you can safely ignore them for these exercises.)
-1. Each exercise includes the following:
-   - A markdown file with a description of the task, an empty (or mostly empty) JavaScript file, and a set of tests.
-   - A `solutions` directory that contains an example solution and the same test file with all of the tests unskipped.
-
-   To complete an exercise, you will need to go to the exercise directory with `cd <path to file>` in the terminal and run `npm test exerciseName.spec.js`. For example, to go to the first Foundations exercise "helloWorld", you need to `cd foundations/data_types_and_conditionals/01_helloWorld` then run `npm test helloWorld.spec.js`. This should run the test file and show you the output. When you run a test for the first time, it will fail. This is by design! You must open the exercise file and write the code needed to get the test to pass.
-1. Some of the exercises have test conditions defined in their spec file as `test.skip` instead of `test`. This is intentional. Once all `test` cases pass, you will change the next `test.skip` to `test` and test your code again. You will do this until all conditions are satisfied. **All tests must pass at the same time**, and you should not have any instances of `test.skip` in the spec file when you are finished with an exercise.
-1. Once you successfully finish an exercise, check the `solutions` directory within each exercise.
-   - You should not be checking the solution for an exercise until you finish it!
-   - If your solution differs from TOP's solution (and still passes the exercise's requirements), that is completely fine. The provided solution is only an example and there are always multiple approaches. Feel free to ask in our Discord if there are parts of the example solution you do not understand.
+Esta es una adaptación educativa al español del repositorio de ejercicios de The Odin Project. Se conservan los nombres de las funciones, las pruebas y los archivos necesarios para practicar. Las carpetas con soluciones de ejemplo se han excluido de esta versión para que cada estudiante resuelva los ejercicios por su cuenta.
 
 > [!IMPORTANT]
-> Do not submit your solutions to this repo, as any PRs that do so will be closed without merging.
+> Practica tus habilidades con Git creando commits y enviando tus cambios a tu propio repositorio. **NO** abras un Pull Request en el repositorio original para enviar tus soluciones: esos cambios no se integrarán y generarían trabajo adicional para sus responsables.
 
-The first exercise, `helloWorld`, will walk you through the process in-depth.
+## Contribuciones
 
-## Debugging
+Si tienes sugerencias para mejorar un ejercicio, ideas para ejercicios nuevos o detectas algún problema, consulta primero la [guía de contribuciones del proyecto original](https://github.com/TheOdinProject/javascript-exercises/blob/main/CONTRIBUTING.md). Para esta adaptación, también puedes utilizar los mecanismos de colaboración del repositorio correspondiente.
 
-To debug functions, you can run the tests in the Visual Studio Code debugger terminal. You can open this by clicking the "Run and Debug" icon on the left or pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd>, then clicking JavaScript Debug Terminal. You will be able to set breakpoints as you would in the Chrome DevTools debugger. You can run `npm test exerciseName.spec.js` to then execute your code up until your breakpoint and step through your code as necessary. **NOTE**: To take advantage of the debugger, you **MUST** run the script in the debugger terminal, not the bash or zsh terminal.
+## Cómo utilizar estos ejercicios
+
+1. **Clona el repositorio.** Puedes consultar la [documentación de GitHub sobre clonación](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). Si deseas trabajar desde una copia en tu propia cuenta, consulta también [cómo crear un fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository).
+2. **Instala Node.js y npm.** Comprueba que npm esté disponible con `npm --version`. Si no está instalado, sigue las instrucciones de [instalación de Node.js](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/installing-node-js) de The Odin Project. No utilices automáticamente una sugerencia de instalación mediante `apt-get` si aparece un error de npm; el proyecto recomienda instalar Node mediante NVM para evitar problemas de permisos.
+3. **Instala las dependencias.** Entra en la carpeta del repositorio (por ejemplo, `cd ejercicios-javascript-es`) y ejecuta `npm install`. Esto instalará Jest y configurará las herramientas de prueba. Es posible que aparezcan avisos sobre paquetes desactualizados o vulnerabilidades; revisa su relevancia antes de utilizarlos fuera de este entorno de práctica.
+4. **Revisa los archivos de cada ejercicio.** Encontrarás un `README.md` con las instrucciones, un archivo JavaScript vacío o casi vacío y un archivo de pruebas. Esta versión no incluye las carpetas con soluciones.
+5. **Ejecuta las pruebas.** Entra en el directorio del ejercicio y ejecuta `npm test exerciseName.spec.js`. Por ejemplo, para el primer ejercicio de fundamentos:
+
+   ```bash
+   cd foundations/data_types_and_conditionals/01_helloWorld
+   npm test helloWorld.spec.js
+   ```
+
+   La primera ejecución normalmente fallará: ¡es intencional! Abre el archivo del ejercicio y escribe el código necesario para superar las pruebas.
+6. **Habilita las pruebas pendientes.** Algunos archivos `.spec.js` contienen `test.skip` en lugar de `test`. Cuando superes las pruebas activas, sustituye el siguiente `test.skip` por `test` y vuelve a ejecutar las pruebas. Repite el proceso hasta que **todas las pruebas se superen al mismo tiempo** y no quede ningún `test.skip` en el ejercicio.
+7. **Compara y mejora tu código.** Revisa los resultados de las pruebas, depura los errores y prueba distintas soluciones. No es necesario que todos los estudiantes resuelvan un problema de la misma forma, siempre que cumplan los requisitos.
+
+El primer ejercicio, `helloWorld`, explica este proceso con mayor detalle.
+
+## Depuración
+
+Puedes ejecutar las pruebas desde la terminal de depuración de Visual Studio Code. Abre **Ejecutar y depurar** en la barra lateral (o presiona <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd>) y selecciona **JavaScript Debug Terminal**. Allí podrás establecer puntos de interrupción, como en las herramientas de desarrollo de Chrome. Ejecuta `npm test exerciseName.spec.js` para detener la ejecución en un punto de interrupción y avanzar paso a paso.
+
+**Importante:** para aprovechar el depurador, ejecuta el comando en la terminal de depuración de JavaScript, no en una terminal bash o zsh convencional.
+
+## Créditos y licencia
+
+Contenido original: [The Odin Project — javascript-exercises](https://github.com/TheOdinProject/javascript-exercises). Traducción y adaptación al español para fines educativos. Consulta el archivo `LICENSE` incluido en el repositorio para conocer las condiciones aplicables.

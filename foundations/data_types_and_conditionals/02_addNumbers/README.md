@@ -1,9 +1,9 @@
-# Exercise 02 - addNumbers
+# Ejercicio 02 - addNumbers
 
-Troubleshoot and modify the existing function so that it returns the digit 2. Avoid "hard coding" the result and try to use variables `a` and `b` to get the correct output.
+Detecta y corrige los errores de la función existente para que devuelva el número 2. Evita escribir el resultado directamente (*hard coding*): intenta utilizar las variables `a` y `b` para obtener la salida correcta.
 
-Currently, it is not returning the correct value.
+Actualmente, la función no devuelve el valor esperado.
 
-## Hints
+## Pistas
 
-- You only need to edit the strings on line 7.
+- Solo necesitas modificar las cadenas de texto de la línea 7.

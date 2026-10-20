@@ -1,12 +1,12 @@
-# Exercise 1 - Factorial
+# Ejercicio 1 - Factorial
 
-Write a recursive [factorial](https://simple.wikipedia.org/wiki/Factorial) function that takes a non-negative integer, and returns the product of all positive integers less than or equal to the input integer. An input of `0` should return `1`. The function should only accept numbers, so `'4'` should not be accepted as it is a string. All invalid inputs should return `undefined`.
+Escribe una función **recursiva** de [factorial](https://simple.wikipedia.org/wiki/Factorial) que reciba un entero no negativo y devuelva el producto de todos los enteros positivos menores o iguales que él. Si recibe `0`, debe devolver `1`. La función solo debe aceptar valores de tipo numérico: `'4'` no es válido porque es una cadena. Toda entrada no válida debe devolver `undefined`.
 
-For example:
+Por ejemplo:
 
 ```javascript
-factorial(5); // 5 * 4 * 3 * 2 * 1, Output: 120
-factorial(0); // Output: 1
-factorial(7.2); // Output: undefined
-factorial('4'); // Output: undefined
+factorial(5); // 5 * 4 * 3 * 2 * 1, resultado: 120
+factorial(0); // resultado: 1
+factorial(7.2); // resultado: undefined
+factorial('4'); // resultado: undefined
 ```

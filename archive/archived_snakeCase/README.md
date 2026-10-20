@@ -1,12 +1,12 @@
-This exercise is tricky and was removed from our recommendations because it mostly leverages regular expressions for the solution, and those aren't really taught at this point in our curriculum.
+Este ejercicio es complicado y se retiró de nuestras recomendaciones porque su solución depende principalmente de expresiones regulares, que todavía no se enseñan en esta etapa del programa.
 
-Leaving it here for posterity, or a good challenge for anyone that wants to give it a shot.
+Lo conservamos como referencia histórica o como un buen reto para quien quiera intentarlo.
 
-# Exercise XX - snakeCase
+# Ejercicio XX - snakeCase
 
-Convert phrases and words into snake case
+Convierte frases y palabras al formato *snake case*.
 
-> Snake case (or snake\_case) is the practice of writing compound words or phrases in which the elements are separated with one underscore character (\_) and no spaces, with each element's initial letter usually lowercased as in "foo\_bar" 
+> *Snake case* (o snake\_case) consiste en escribir palabras compuestas o frases separando sus elementos con un guion bajo (\_), sin espacios y, normalmente, con todas las letras en minúsculas, como en "foo\_bar".
 
 ```javascript
 snakeCase('Hello, World!') // hello_world

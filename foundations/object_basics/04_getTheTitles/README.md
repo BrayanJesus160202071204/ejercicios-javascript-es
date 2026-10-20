@@ -1,6 +1,6 @@
-# Exercise 04 - Get the Titles!
+# Ejercicio 04 - ¡Obtén los títulos!
 
-You are given an array of objects that represent books with an author and a title that looks like this:
+Se te proporciona un arreglo de objetos que representan libros, cada uno con un autor y un título, como este:
 
 ```javascript
 const books = [
@@ -15,12 +15,12 @@ const books = [
 ]
 ```
 
-Your job is to write a function that takes the array and returns an array of titles:
+Tu tarea es escribir una función que reciba ese arreglo y devuelva otro arreglo con los títulos:
 
 ```javascript
 getTheTitles(books) // ['Book', 'Book2']
 ```
 
-## Hints
+## Pistas
 
-- You should use a built-in javascript method to do most of the work for you!
+- ¡Puedes utilizar un método integrado de JavaScript para realizar la mayor parte del trabajo!

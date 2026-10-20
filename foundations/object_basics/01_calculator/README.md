@@ -1,12 +1,12 @@
-# Exercise 01 - Calculator
+# Ejercicio 01 - Calculadora
 
-The goal for this exercise is to create a calculator that does the following:
+El objetivo de este ejercicio es crear una calculadora que haga lo siguiente:
 
-1. `add()`: take two numbers and return their sum
-2. `subtract()`: take two numbers and return the result after subtracting the second from the first
-3. `sum()`: take an array of numbers and add all the numbers together
-4. `multiply()`: take an array of numbers and multiply all the numbers together
-5. `power()`: take two numbers (base and exponent) and return the result of raising the base to that exponent
-6. `factorial()`: given a single number, find its [factorial](https://www.mathsisfun.com/numbers/factorial.html)
+1. `add()`: recibe dos números y devuelve su suma.
+2. `subtract()`: recibe dos números y devuelve el resultado de restar el segundo al primero.
+3. `sum()`: recibe un arreglo de números y devuelve la suma de todos sus elementos.
+4. `multiply()`: recibe un arreglo de números y devuelve el producto de todos sus elementos.
+5. `power()`: recibe dos números (base y exponente) y devuelve el resultado de elevar la base a ese exponente.
+6. `factorial()`: recibe un número y calcula su [factorial](https://www.mathsisfun.com/numbers/factorial.html).
 
-Please fill out each function with your solution. Make sure to `return` the value so you can test it in Jest! To see the expected value, take a look at the `.spec.js` file that houses the Jest test cases.
+Completa cada función con tu propia solución. Asegúrate de utilizar `return` para devolver el valor y poder comprobarlo con Jest. Para conocer el resultado esperado, revisa el archivo `.spec.js` que contiene los casos de prueba.
