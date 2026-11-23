@@ -7,7 +7,7 @@ const subtract = function(a, b) {
 };
 
 const sum = function(arreglo) {
-	return arreglo.reduce((acumulador, valorActual) => acumulador + valorActual);
+	return arreglo.reduce((acumulador, valorActual) => acumulador + valorActual,0);
 };
 
 const multiply = function(arreglo) {
@@ -19,11 +19,11 @@ const power = function(base, exponente) {
 };
 
 const factorial = function(factorial) {
-	let producto = 0;
-  for(let i = 0; i <= factorial; i--){
-    producto *= i;
+	let resultado = 1;
+  for(let i = factorial; i > 0; i --){
+    resultado *= i;
   }
-  return producto;
+  return resultado
 };
 
 // Do not edit below this line
